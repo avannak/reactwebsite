@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif');
+body{
+
+  font-family: 'Bree Serif', serif;
+  font-size: 8px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+
+}
+h1{
+position: relative;
+padding: 20px 20px 20px 20px;
+font-size: 24px;
+}
+.photo{
+  background-image: url("/pictures/sleepyboy2.png");
+
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-size: 100vw;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+
+}
+#container{
+
+  left: 2vw;
+
+  position: absolute;
+  height: 95vh;
+  width: 95vw;
+  background-position: center;
+  display:flex;
+  justify-content: flex;
+  z-index: 5;
+  font-size: 30px;
+  font-size-adjust: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 10px;
+}
